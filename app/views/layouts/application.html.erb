@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seven</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<style>
+/* logo of viit */
+.upar-ka-logo{
+height:1000%;
+width:80%;
+}
+
+/*news and events ka css start*/
+
+.news-and-event {
+line-height:1px;
+    text-align:center;
+    color:#F00000;
+margin-bottom:-3%;
+ background-color:#191919;
+}
+/*.img_tag{
+   background-image:url("file:///C:/Users/Admin/Desktop/paper-2.jpg");
+background-repeat: no-repeat;
+ background-size: 100% 450px;
+}*/
+.news-ka-div {
+    margin-top:0px;
+    padding:50px;
+ 
+    background-color: #191919;
+
+    height: 250px;
+    border: 5px solid black;
+
+}
+marquee{
+height:250px;
+loop:number;
+width:100%;
+}
+.news-ka-para{
+width:90%;
+font-size:20px;
+color:white;
+}
+
+/*news and event  ka css ka end*/
+
+#about-area-ka-color{
+background-color:blue;
+}
+
+#para1 {
+background-color: black;
+color:white;
+}
+
+h5 {text-align:left;}
+h1 {text-align:left;}
+h4 {text-align:left;}
+
+<!--akash ka-->
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+
+         <!-- Style to reverse the caret icon from pointing downwards to upwards -->
+  .caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid #fff;
+  }
+         .navbar-brand
+         {
+         position:relative;
+         left=0;
+         text-align:center;
+         margin:auto;
+         }
+         ul{
+         list-style-type:none:
+         margin:0;
+         padding:0;
+         overflow:hidden:
+         background-color:orange;
+         }
+         li a:hover{
+         background-color:pink;
+         }
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+ 
+
+         <!--akash ka  end -->
+</style>
+<!--<![endif]-->
+<head>
+
+ <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>viit</title>
+        <meta name="description" content="SRES is the best engineering institute in Pune providing value added Quality education in Engineering Diploma, Graduation and Post Graduation to the students. " />
+        <meta name="keywords" content="Engg College in Pune, Top Engg College in Pune, Engg College in Maharashtra, top 10 Engg colleges in Maharashtra" />
+                                               <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name="google-site-verification" content="N3NgQGtdOQLHaVGOdQtmdsbHjBWBwGgQrC4N-GWEBqM" />
+         <script>
+
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+          Date();a=s.createElement(o),
+
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+             ga('create', 'UA-75159347-1', 'auto');
+             ga('send', 'pageview');
+
+          </script>
+
+
+
+        <!-- favicon
+        ============================================ -->
+        <link rel="shortcut icon" type="image/x-icon" href="logo-viit.png">
+
+        <!-- Google Fonts
+        ============================================ -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/bootstrap.min.css">
+
+        <!-- Fontawsome CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/font-awesome.min.css">
+
+        <!-- Owl Carousel CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/owl.carousel.css">
+
+        <!-- jquery-ui CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/jquery-ui.css">
+
+        <!-- Meanmenu CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/meanmenu.min.css">
+
+        <!-- Animate CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/animate.css">
+
+        <!-- Nivo slider CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/lib/nivo-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="http://www.srespune.org/lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
+
+        <!-- Metarial Iconic Font CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/http://www.srespune.org/css/material-design-iconic-font.css">
+        <link rel="stylesheet" href="http://www.srespune.org/css/material-design-iconic-font.min.css">
+
+        <!-- Slick CSS
+        ============================================ -->
+    <link rel="stylesheet" href="http://www.srespune.org/css/slick.css">
+        <link rel="stylesheet" href="http://www.srespune.org/css/lightbox.css">
+
+        <!-- Style CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/style.css">
+
+        <!-- Responsive CSS
+        ============================================ -->
+        <link rel="stylesheet" href="http://www.srespune.org/css/responsive.css">
+
+        <!-- Modernizr JS
+        ============================================ -->
+        <script src="http://www.srespune.org/js/vendor/modernizr-2.8.3.min.js"></script>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <style>
+.dropdown-submenu {
+    position: relative;
+
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+<!-- Style to reverse the caret icon from pointing downwards to upwards -->
+  .caret.caret-up {
+    border-top-width: 0;
+    border-bottom: 4px solid #fff;
+  }
+         .navbar-brand
+         {
+         position:relative;
+         left=0;
+         text-align:center;
+         margin:auto;
+         }
+         ul{
+         list-style-type:none:
+         margin:0;
+         padding:0;
+         overflow:hidden:
+         background-color:orange;
+         }
+         li a:hover{
+         background-color:pink;
+         }
+     </style>
+    <meta charset="UTF-8" />
+           
+   
+    <link rel="pingback" href="http://awhf.net/xmlrpc.php" />
+
+        <!--[if lt IE 9]>
+    <script src="http://awhf.net/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        document.documentElement.className = 'js';
+    </script>
+
+    <title>viit</title>
+
+
+<link rel='stylesheet' id='google-language-translator-css'  href='http://awhf.net/wp-content/plugins/google-language-translator/css/style.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://awhf.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='http://awhf.net/wp-content/plugins/photo-gallery/css/bwg_frontend.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_sumoselect-css'  href='http://awhf.net/wp-content/plugins/photo-gallery/css/sumoselect.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_font-awesome-css'  href='http://awhf.net/wp-content/plugins/photo-gallery/css/font-awesome/font-awesome.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_mCustomScrollbar-css'  href='http://awhf.net/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css?ver=1.3.16' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_0-css'  href='https://fonts.googleapis.com/css?family=ABeeZee|Abel|Abril+Fatface|Aclonica|Acme|Actor|Adamina|Advent+Pro|Aguafina+Script|Akronim|Aladin|Aldrich|Alef|Alegreya|Alegreya+SC|Alegreya+Sans|Alex+Brush|Alfa+Slab+One|Alice|Alike|Alike+Angular|Allan|Allerta|Allerta+Stencil|Allura|Almendra|Almendra+Display|Almendra+SC|Amarante|Amaranth|Amatic+SC|Amethysta|Amiri|Amita|Anaheim|Andada|Andika|Angkor|Annie+Use+Your+Telescope|Anonymous+Pro|Antic|Antic+Didone|Antic+Slab|Anton|Arapey|Arbutus|Arbutus+Slab|Architects+Daughter|Archivo+Black|Archivo+Narrow|Arimo|Arizonia|Armata|Artifika|Arvo|Arya|Asap|Asar|Asset|Astloch|Asul|Atomic+Age|Aubrey|Audiowide|Autour+One|Average|Average+Sans|Averia+Gruesa+Libre|Averia+Libre|Averia+Sans+Libre|Averia+Serif+Libre|Bad+Script|Balthazar|Bangers|Basic|Battambang|Baumans|Bayon|Belgrano|BenchNine|Bentham|Berkshire+Swash|Bevan|Bigelow+Rules|Bigshot+One|Bilbo|Bilbo+Swash+Caps|Biryani|Bitter|Black+Ops+One|Bokor|Bonbon|Boogaloo|Bowlby+One|Bowlby+One+SC|Brawler|Bree+Serif|Bubblegum+Sans|Bubbler+One|Buda|Buda+Light+300|Buenard|Butcherman|Butterfly+Kids|Cabin|Cabin+Condensed|Cabin+Sketch|Caesar+Dressing|Cagliostro|Calligraffitti|Cambay|Cambo|Candal|Cantarell|Cantata+One|Cantora+One|Capriola|Cardo|Carme|Carrois+Gothic|Carrois+Gothic+SC|Carter+One|Caudex|Caveat+Brush|Cedarville+Cursive|Ceviche+One|Changa+One|Chango|Chau+Philomene+One|Chela+One|Chelsea+Market|Chenla|Cherry+Cream+Soda|Chewy|Chicle|Chivo|Chonburi|Cinzel|Cinzel+Decorative|Clicker+Script|Coda|Coda+Caption|Codystar|Combo|Comfortaa|Coming+Soon|Concert+One|Condiment|Content|Contrail+One&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_150-css'  href='https://fonts.googleapis.com/css?family=Convergence|Cookie|Copse|Corben|Courgette|Cousine|Coustard|Covered+By+Your+Grace|Crafty+Girls|Creepster|Crete+Round|Crimson+Text|Croissant+One|Crushed|Cuprum|Cutive|Cutive+Mono|Damion|Dancing+Script|Dangrek|Dawning+of+a+New+Day|Days+One|Dekko|Delius|Delius+Swash+Caps|Delius+Unicase|Della+Respira|Denk+One|Devonshire|Dhurjati|Didact+Gothic|Diplomata|Diplomata+SC|Domine|Donegal+One|Doppio+One|Dorsa|Dosis|Dr+Sugiyama|Droid+Sans|Droid+Sans+Mono|Droid+Serif|Duru+Sans|Dynalight|EB+Garamond|Eagle+Lake|Eater|Economica|Eczar|Ek+Mukta|Electrolize|Elsie|Elsie+Swash+Caps|Emblema+One|Emilys+Candy|Engagement|Englebert|Enriqueta|Erica+One|Esteban|Euphoria+Script|Ewert|Exo|Exo+2|Expletus+Sans|Fanwood+Text|Fascinate|Fascinate+Inline|Faster+One|Fasthand|Fauna+One|Federant|Federo|Felipa|Fenix|Finger+Paint|Fira+Mono|Fjalla+One|Fjord+One|Flamenco|Flavors|Fondamento|Fontdiner+Swanky|Forum|Francois+One|Freckle+Face|Fredericka+the+Great|Fredoka+One|Freehand|Fresca|Frijole|Fruktur|Fugaz+One|GFS+Didot|GFS+Neohellenic|Gabriela|Gafata|Galdeano|Galindo|Gentium+Basic|Gentium+Book+Basic|Geo|Geostar|Geostar+Fill|Germania+One|Gidugu|Gilda+Display|Give+You+Glory|Glass+Antiqua|Glegoo|Gloria+Hallelujah|Goblin+One|Gochi+Hand|Gorditas|Goudy+Bookletter+1911|Graduate|Grand+Hotel|Gravitas+One|Great+Vibes|Griffy|Gruppo|Gudea|Gurajada|Habibi|Halant|Hammersmith+One|Hanalei|Hanalei+Fill|Handlee|Hanuman|Happy+Monkey|Headland+One|Henny+Penny|Herr+Von+Muellerhoff|Hind|Holtwood+One+SC|Homemade+Apple|Homenaje|IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Double+Pica|IM+Fell+Double+Pica+SC|IM+Fell+English|IM+Fell+English+SC|IM+Fell+French+Canon|IM+Fell+French+Canon+SC|IM+Fell+Great+Primer|IM+Fell+Great+Primer+SC|Iceberg|Iceland&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_300-css'  href='https://fonts.googleapis.com/css?family=Imprima|Inconsolata|Inder|Indie+Flower|Inika|Inknut+Antiqua|Irish+Grover|Istok+Web|Italiana|Italianno|Itim|Jacques+Francois|Jacques+Francois+Shadow|Jaldi|Jim+Nightshade|Jockey+One|Jolly+Lodger|Josefin+Sans|Josefin+Slab|Joti+One|Judson|Julee|Julius+Sans+One|Junge|Jura|Just+Another+Hand|Just+Me+Again+Down+Here|Kadwa|Kameron|Kanit|Karla|Kaushan+Script|Kavoon|Keania+One|Kelly+Slab|Kenia|Khand|Khmer|Khula|Kite+One|Knewave|Kotta+One|Koulen|Kranky|Kreon|Kristi|Krona+One|Kurale|La+Belle+Aurore|Laila|Lakki+Reddy|Lancelot|Lateef|Lato|League+Script|Leckerli+One|Ledger|Lekton|Lemon|Libre+Baskerville|Life+Savers|Lilita+One|Lily+Script+One|Limelight|Linden+Hill|Lobster|Lobster+Two|Londrina+Outline|Londrina+Shadow|Londrina+Sketch|Londrina+Solid|Lora|Love+Ya+Like+A+Sister|Loved+by+the+King|Lovers+Quarrel|Luckiest+Guy|Lusitana|Lustria|Macondo|Macondo+Swash+Caps|Magra|Maiden+Orange|Mako|Mandali|Marcellus|Marcellus+SC|Marck+Script|Margarine|Marko+One|Marmelad|Martel|Martel+Sans|Marvel|Mate|Mate+SC|Maven+Pro|McLaren|Meddon|MedievalSharp|Medula+One|Megrim|Meie+Script|Merienda|Merienda+One|Merriweather|Merriweather+Sans|Metal|Metal+Mania|Metamorphous|Metrophobic|Michroma|Milonga|Miltonian|Miltonian+Tattoo|Miniver|Miss+Fajardose|Modak|Modern+Antiqua|Molengo|Molle:400i|Monda|Monofett|Monoton|Monsieur+La+Doulaise|Montaga|Montez|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Moul|Moulpali|Mountains+of+Christmas|Mouse+Memoirs|Mr+Bedfort|Mr+Dafoe|Mr+De+Haviland|Mrs+Saint+Delafield|Mrs+Sheppards|Muli|Mystery+Quest|NTR|Neucha|Neuton|New+Rocker|News+Cycle|Niconne|Nixie+One|Nobile|Nokora|Norican&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_450-css'  href='https://fonts.googleapis.com/css?family=Nosifer|Nothing+You+Could+Do|Noticia+Text|Noto+Sans|Noto+Serif|Nova+Cut|Nova+Flat|Nova+Mono|Nova+Oval|Nova+Round|Nova+Script|Nova+Slim|Nova+Square|Numans|Nunito|Odor+Mean+Chey|Offside|Old+Standard+TT|Oldenburg|Oleo+Script|Oleo+Script+Swash+Caps|Open+Sans|Open+Sans+Condensed:300|Oranienbaum|Orbitron|Oregano|Orienta|Original+Surfer|Oswald|Over+the+Rainbow|Overlock|Overlock+SC|Ovo|Oxygen|Oxygen+Mono|PT+Mono|PT+Sans|PT+Sans+Caption|PT+Sans+Narrow|PT+Serif|PT+Serif+Caption|Pacifico|Palanquin|Palanquin+Dark|Paprika|Parisienne|Passero+One|Passion+One|Pathway+Gothic+One|Patrick+Hand|Patrick+Hand+SC|Patua+One|Paytone+One|Peddana|Peralta|Permanent+Marker|Petit+Formal+Script|Petrona|Philosopher|Piedra|Pinyon+Script|Pirata+One|Plaster|Play|Playball|Playfair+Display|Playfair+Display+SC|Podkova|Poiret+One|Poller+One|Poly|Pompiere|Pontano+Sans|Poppins|Port+Lligat+Sans|Port+Lligat+Slab|Pragati+Narrow|Prata|Preahvihear|Press+Start+2P|Princess+Sofia|Prociono|Prosto+One|Puritan|Purple+Purse|Quando|Quantico|Quattrocento|Quattrocento+Sans|Questrial|Quicksand|Quintessential|Qwigley|Racing+Sans+One|Radley|Rajdhani|Raleway|Raleway+Dots|Ramabhadra|Ramaraja|Rambla|Rammetto+One|Ranchers|Rancho|Ranga|Rationale|Ravi+Prakash|Redressed|Reenie+Beanie|Revalia|Rhodium+Libre|Ribeye|Ribeye+Marrow|Righteous|Risque|Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Rochester|Rock+Salt|Rokkitt|Romanesco|Ropa+Sans|Rosario|Rosarivo|Rouge+Script|Rozha+One|Rubik|Rubik+Mono+One|Rubik+One|Ruda|Rufina|Ruge+Boogie|Ruluko|Rum+Raisin|Ruslan+Display|Russo+One|Ruthie|Rye|Sacramento|Sahitya|Sail|Salsa|Sanchez|Sancreek|Sansita+One|Sarina|Sarpanch|Satisfy&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts_600-css'  href='https://fonts.googleapis.com/css?family=Scada|Schoolbell|Seaweed+Script|Sevillana|Seymour+One|Shadows+Into+Light|Shadows+Into+Light+Two|Shanti|Share|Share+Tech|Share+Tech+Mono|Shojumaru|Short+Stack|Siemreap|Sigmar+One|Signika|Signika+Negative|Simonetta|Sintony|Sirin+Stencil|Six+Caps|Skranji|Slabo+13px|Slackey|Smokum|Smythe|Sniglet|Snippet|Snowburst+One|Sofadi+One|Sofia|Sonsie+One|Sorts+Mill+Goudy|Source+Code+Pro|Source+Sans+Pro|Source+Serif+Pro|Special+Elite|Spicy+Rice|Spinnaker|Spirax|Squada+One|Sree+Krushnadevaraya|Stalemate|Stalinist+One|Stardos+Stencil|Stint+Ultra+Condensed|Stint+Ultra+Expanded|Stoke|Strait|Sue+Ellen+Francisco|Sumana|Sunshiney|Supermercado+One|Sura|Suranna|Suravaram|Suwannaphum|Swanky+and+Moo+Moo|Syncopate|Tangerine|Taprom|Tauri|Teko|Telex|Tenali+Ramasarvasva|Tenor+Sans|Text+Me+One|The+Girl+Next+Door|Tienne|Tillana|Timmana|Tinos|Titan+One|Titillium+Web|Trade+Winds|Trocchi|Trochut|Trykker|Tulpen+One|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono|Ultra|Uncial+Antiqua|Underdog|Unica+One|UnifrakturCook:700|UnifrakturMaguntia|Unkempt|Unlock|Unna|VT323|Vampiro+One|Varela|Varela+Round|Vast+Shadow|Vibur|Vidaloka|Viga|Voces|Volkhov|Vollkorn|Voltaire|Waiting+for+the+Sunrise|Wallpoet|Walter+Turncoat|Warnes|Wellfleet|Wendy+One|Wire+One|Work+Sans|Yanone+Kaffeesatz|Yantramanav|Yellowtail|Yeseva+One|Yesteryear|Zeyada&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='http://awhf.net/wp-content/themes/Divi/style.css?ver=3.0.18' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='http://awhf.net/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css?ver=3.0.18' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css'  href='http://awhf.net/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css?ver=3.0.18' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='http://awhf.net/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=3.0.18' type='text/css' media='all' />
+<link rel='stylesheet' id='rps-style-css'  href='http://awhf.net/wp-content/plugins/recent-posts-slider/css/style.css?ver=4.6.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://awhf.net/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://awhf.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/google-language-translator/js/flags.js?ver=4.6.3'></script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/bwg_frontend.js?ver=1.3.16'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_select_tag":"Select Tag."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=1.3.16'></script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/jquery.mobile.js?ver=1.3.16'></script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.3.16'></script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://awhf.net/wp-content/plugins/photo-gallery/js/bwg_gallery_box.js?ver=1.3.16'></script>
+<link rel='https://api.w.org/' href='http://awhf.net/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://awhf.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://awhf.net/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.6.3" />
+<link rel='shortlink' href='http://awhf.net/' />
+<link rel="alternate" type="application/json+oembed" href="http://awhf.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawhf.net%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://awhf.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawhf.net%2F&#038;format=xml" />
+<style type="text/css">.goog-logo-link { display:none !important; overflow:hidden;}
+.goog-te-gadget { visibility: collapse; overflow:hidden;}
+.goog-te-gadget div { visibility: visible; }.goog-tooltip {display: none !important;}.goog-tooltip:hover {display: none !important;}.goog-text-highlight {background-color: transparent !important; border: none !important; box-shadow: none !important;}#google_language_translator { width:auto !important; }#flags { display:none; }#google_language_translator {color: transparent;}body { top:0px !important; }</style><!-- <meta name="NextGEN" version="2.1.56" /> -->
+<style type="text/css" media="screen"></style><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />        <style id="theme-customizer-css">
+                                                                    a { color: #ddc8a4; }
+                            #main-header, #main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu { background-color: #c9c9c9; }
+                                                                            .et_header_style_centered .mobile_nav .select_page, .et_header_style_split .mobile_nav .select_page, .et_nav_text_color_light #top-menu > li > a, .et_nav_text_color_dark #top-menu > li > a, #top-menu a, .et_mobile_menu li a, .et_nav_text_color_light .et_mobile_menu li a, .et_nav_text_color_dark .et_mobile_menu li a, #et_search_icon:before, .et_search_form_container input, span.et_close_search_field:after, #et-top-navigation .et-cart-info { color: rgba(255,255,255,0.95); }
+            .et_search_form_container input::-moz-placeholder { color: rgba(255,255,255,0.95); }
+            .et_search_form_container input::-webkit-input-placeholder { color: rgba(255,255,255,0.95); }
+            .et_search_form_container input:-ms-input-placeholder { color: rgba(255,255,255,0.95); }
+                               
+                    #top-menu li a, .et_search_form_container input {
+                                    font-weight: normal; font-style: normal; text-transform: uppercase; text-decoration: none;                                             }
+
+            .et_search_form_container input::-moz-placeholder {
+                                    font-weight: normal; font-style: normal; text-transform: uppercase; text-decoration: none;                                             }
+            .et_search_form_container input::-webkit-input-placeholder {
+                                    font-weight: normal; font-style: normal; text-transform: uppercase; text-decoration: none;                                             }
+            .et_search_form_container input:-ms-input-placeholder {
+                                    font-weight: normal; font-style: normal; text-transform: uppercase; text-decoration: none;                                             }
+       
+                    #top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a,
+            .et_color_scheme_red #top-menu li.current-menu-ancestor > a, .et_color_scheme_red #top-menu li.current-menu-item > a,
+            .et_color_scheme_pink #top-menu li.current-menu-ancestor > a, .et_color_scheme_pink #top-menu li.current-menu-item > a,
+            .et_color_scheme_orange #top-menu li.current-menu-ancestor > a, .et_color_scheme_orange #top-menu li.current-menu-item > a,
+            .et_color_scheme_green #top-menu li.current-menu-ancestor > a, .et_color_scheme_green #top-menu li.current-menu-item > a { color: #dd9933; }
+                                                                #et-footer-nav { background-color: rgba(2,2,2,0.05); }#et-footer-nav .bottom-nav li.current-menu-item a { color: #dd9933; }.bottom-nav a { font-weight: normal; font-style: normal; text-transform: uppercase; text-decoration: none;  }#footer-bottom { background-color: #dddddd; }#footer-info, #footer-info a { color: #565656; }#footer-info { font-size: 13px ; }                                       
+       
+                                                                                                                       
+        @media only screen and ( min-width: 981px ) {
+                                                                                                                .et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation  { padding: 92px 0 0 0; }
+                .et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a { padding-bottom: 92px; }
+                .et_header_style_split .centered-inline-logo-wrap { width: 183px; margin: -183px 0; }
+                .et_header_style_split .centered-inline-logo-wrap #logo { max-height: 183px; }
+                .et_pb_svg_logo.et_header_style_split .centered-inline-logo-wrap #logo { height: 183px; }
+                .et_header_style_centered #top-menu > li > a { padding-bottom: 33px; }
+                .et_header_style_slide #et-top-navigation, .et_header_style_fullscreen #et-top-navigation { padding: 83px 0 83px 0 !important; }
+                                    .et_header_style_centered #main-header .logo_container { height: 183px; }
+                                                                    .et_header_style_centered #logo { max-height: 97%; }
+                .et_pb_svg_logo.et_header_style_centered #logo { height: 97%; }
+                                                                .et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container, .et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container { height: 32.94px; }
+                                                                                                    .et-fixed-header #top-menu a, .et-fixed-header #et_search_icon:before, .et-fixed-header #et_top_search .et-search-form input, .et-fixed-header .et_search_form_container input, .et-fixed-header .et_close_search_field:after, .et-fixed-header #et-top-navigation .et-cart-info { color: rgba(255,255,255,0.95) !important; }
+                .et-fixed-header .et_search_form_container input::-moz-placeholder { color: rgba(255,255,255,0.95) !important; }
+                .et-fixed-header .et_search_form_container input::-webkit-input-placeholder { color: rgba(255,255,255,0.95) !important; }
+                .et-fixed-header .et_search_form_container input:-ms-input-placeholder { color: rgba(255,255,255,0.95) !important; }
+                                        .et-fixed-header #top-menu li.current-menu-ancestor > a,
+                .et-fixed-header #top-menu li.current-menu-item > a { color: #dd9933 !important; }
+                       
+                    }
+                    @media only screen and ( min-width: 1350px) {
+                .et_pb_row { padding: 27px 0; }
+                .et_pb_section { padding: 54px 0; }
+                .single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper { padding-top: 81px; }
+                .et_pb_section.et_pb_section_first { padding-top: inherit; }
+                .et_pb_fullwidth_section { padding: 0; }
+            }
+       
+        @media only screen and ( max-width: 980px ) {
+                                                                                }
+        @media only screen and ( max-width: 767px ) {
+                                                        }
+    </style>
+
+   
+   
+   
+    <style id="module-customizer-css">
+            </style>
+
+    <style type="text/css" id="et-custom-css">
+/* CUSTOM CSS */
+
+.logoimage {
+margin-left: 5%;
+margin-right: 5%;
+width: 8%;
+float: left;
+}
+
+
+#et-top-navigation {
+    padding-top: 33px !important;
+}
+
+.et_pb_text_0 {
+    /*padding: 28px 35px 25px 250px !important;*/
+}
+
+.home .et_pb_image_2 img, .home .et_pb_image_3 img, .home .et_pb_image_4 img, .home .et_pb_image_5 img {
+    max-height: 275px !important;
+}
+
+.home .et_pb_image_0 img, .home .et_pb_image_1 img {
+    max-height: 405px !important;
+}
+
+button {
+    cursor: pointer !important;
+}
+
+body {
+    line-height: 20px !important;
+}
+
+.et_pb_slide_description h2 {
+    font-size: 60px !important;
+}
+
+.bottom-nav {
+    padding: 34px 0px !important;
+}
+
+#footer-info {
+    margin-top: 30px !important;
+}
+
+
+
+.et_pb_slide_description h2 {
+font-weight: bold;
+/*-webkit-text-stroke: 1px rgb(237,108,46);*/
+}
+
+.et_header_style_centered header#main-header.et-fixed-header .logo_container .signspan img {
+display:none;
+-webkit-transition-delay: 5s; /* Safari */
+transition-delay: 5s;
+-webkit-transition: all .6s ease-in-out;
+-moz-transition: all .6s ease-in-out;
+-o-transition: all .6s ease-in-out;
+-ms-transition: all .6s ease-in-out;
+transition: all .6s ease-in-out;
+}
+
+.et_pb_slide_description h2 {
+    text-transform: uppercase !important;
+}
+
+.et_pb_accordion a {
+color: #000;
+}
+#et-top-navigation {
+  background: #222 none repeat scroll 0 0;
+  padding-top: 10px;
+}
+.et_header_style_centered #main-header div#et-top-navigation {
+  background-color: #000;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+.et_fullwidth_nav #main-header .container {
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+</style></head>
+<body class="home page page-id-38 page-parent page-template-default et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_cover_background et_pb_gutter linux et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_centered et_pb_pagebuilder_layout et_right_sidebar et_divi_theme gecko">
+    <div id="page-container" style="padding-top:20px">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<div class="logoimage"><img class="upar-ka-logo" src="logo-viit.png" width="120"></div>   
+
+<div class="custom">
+<h5 style="margin-bottom:-2%; margin-left:37%;">Bansilal Ramnath Agarwal Charitable Trust's</h5>
+<h1>Vishwakarma Institute of Information Technology</h1>
+<hr color="black" class="div" style="margin-top:-0.5%; width:57.5%; margin-left:0%; border-color:#999999">
+<h4 style="margin-top:-0.5%; margin-left:35%; margin-bottom:-1%;"><i><small style="color:#0054FF;">(An Institute affiliated to Savitribai Phule Pune University)</small></i></h4></div>
+   
+</div>
+
+<br>
+
+<!--Nav bar starts here-->
+
+<nav class="navbar navbar-inverse" style="margin-top:2%;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">HOME</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ADMISSIONS<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="width:auto">
+                        <li><a href="#">PROGRAMMES OFFERED</a></li>
+                        <li><a href="#">UNDERGRADUATE ADMISSIONS-FE</a></li>
+                        <li><a href="#">UNDERGRADUATE ADMISSIONS-DSE</a></li>
+                        <li><a href="#">POST ADMISSIONS-ME</a></li>
+                        <li><a href="#">INTERNATIONAL CELL</a></li>
+                        <li><a href="#">MoUS</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACADEMICS<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="width:auto">
+                        <li><a href="#">DEPARTMENTS</a></li>
+                        <li><a href="#">LIST OF UNIVERSITY TOPPERS</a></li>
+                        <li><a href="#">AWARDS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">PLACEMENT</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">STUDENT ACTIVITY<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">GANDHARVA</a></li>
+                        <li><a href="#">SPORTS</a></li>
+                        <li><a href="#">EDC</a></li>
+                        <li><a href="#">ROBOCON</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACHIEVEMENTS<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="width:auto">
+                        <li><a href="#">STAFF </a></li>
+                        <li><a href="#">STUDENTS</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">NIRF</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INFRASTRUCTURE<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="width:auto">
+                        <li><a href="#">ACADEMICS</a></li>
+                        <li><a href="#">GENERAL FACILITIES</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="caret"></span></a>
+                    <ul class="dropdown-menu" style="width:auto">
+                        <li><a href="#">MISSION AND VISION</a></li>
+                        <li><a href="#">MANDATORY DISCLOSURE</a></li>
+                        <li><a href="#">APPROVALS</a></li>
+                        <li><a href="#">PRINCIPAL'S VIEW</a></li>
+
+                        <li class="dropdown-submenu">
+                            <a class="test" tabindex="-1" href="#">MANAGEMENT<span class="caret" ></span></a>
+                            <ul class="dropdown-menu" style="width:auto right:0; left:-91%">
+                                <li><a tabindex="-1" href="#">CHAIRMEN'S VIEW</a></li>
+                                <li><a tabindex="-1" href="#">LIST OF TRUSTIES</a></li>
+                                <li><a tabindex="-1" href="#">ABOUT TRUST</a></li>
+                                <li><a tabindex="-1" href="#">GOVERNING BODY</a></li>
+                            </ul>
+
+
+
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<script>
+ <!-- dropdown multilevel ex in management start  -->
+          $(document).ready(function(){
+          $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+          });
+          });
+<!-- dropdown multilevel ex in management  end -->
+
+<!--dropdown on hover start-->
+          $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+<!--dropdown on hover end-->
+</script>
+
+    <%= yield %>
+    
+  </body>
+</html>
